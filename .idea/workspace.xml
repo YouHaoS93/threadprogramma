@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e005156c-ac60-4aad-878c-0e3ec825cc29" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dvHVlgnnA1Oz6eyF9vdxKa4rCa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRestaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.TestRestaurant" />
+      <module name="Restaurant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestRestaurant" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e005156c-ac60-4aad-878c-0e3ec825cc29" name="Default Changelist" comment="" />
+      <created>1593298672186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593298672186</updated>
+      <workItem from="1593298675342" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1584" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593298682158">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state x="1584" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298682158" />
+    <state width="1615" height="266" key="GridCell.Tab.0.bottom" timestamp="1593298723457">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state width="1615" height="266" key="GridCell.Tab.0.bottom/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723457" />
+    <state width="1615" height="266" key="GridCell.Tab.0.center" timestamp="1593298723456">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state width="1615" height="266" key="GridCell.Tab.0.center/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723456" />
+    <state width="1615" height="266" key="GridCell.Tab.0.left" timestamp="1593298723455">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state width="1615" height="266" key="GridCell.Tab.0.left/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723455" />
+    <state width="1615" height="266" key="GridCell.Tab.0.right" timestamp="1593298723456">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state width="1615" height="266" key="GridCell.Tab.0.right/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723456" />
+    <state x="1219" y="97" key="SettingsEditor" timestamp="1593298705264">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state x="1219" y="97" key="SettingsEditor/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298705264" />
+  </component>
+</project>
