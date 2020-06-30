@@ -1,6 +1,6 @@
   package model;
 
-public class Kok {
+public class Kok implements Runnable {
 
 	private String id;
 	private Balie balie = null;
@@ -10,13 +10,16 @@ public class Kok {
 		this.balie = balie;
 	}
 
-	public void bereidMaaltijden() {
+
+	@Override
+	public void run() {
 		while (balie.erZijnNogBestellingen()) {
 			Bestelling bestelling = balie.pakBestelling();
 			Maaltijd maaltijd = bereidMaaltijd(bestelling);
 			balie.plaatsMaaltijd(maaltijd);
 		}
 	}
+
 
 	private Maaltijd bereidMaaltijd(Bestelling b) {
 		try {

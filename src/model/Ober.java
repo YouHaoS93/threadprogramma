@@ -1,21 +1,27 @@
 package model;
 
-public class Ober {
+public class Ober implements Runnable {
 
 	private String id;
 	private Balie balie = null;
 	private static final int BEZORGTIJD = 10;
+	private volatile boolean stoppen = false;
 
 	public Ober(String id, Balie balie) {
 		this.id = id;
 		this.balie = balie;
 	}
 
-	public void bezorgMaaltijden() {
-		while (balie.erZijnNogMaaltijden()) {
+	@Override
+	public void run() {
+		while (!stoppen) {
 			Maaltijd maaltijd = balie.pakMaaltijd();
 			bezorgMaaltijd(maaltijd);
 		}
+	}
+
+	public void stoppen() {
+		stoppen = true;
 	}
 
 	private void bezorgMaaltijd(Maaltijd m) {
