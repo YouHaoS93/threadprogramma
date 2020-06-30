@@ -24,7 +24,7 @@ public class Balie {
 	}
 
 	// Kok pakt bestelling om te bereiden
-	public Bestelling pakBestelling() {
+	public synchronized Bestelling pakBestelling() {
 		Bestelling res = null;
 		if (erZijnNogBestellingen()) {
 			res = bestellingen.remove(0);
@@ -43,7 +43,7 @@ public class Balie {
 	}
 
 	// Ober pakt een maaltijd om te bezorgen
-	public Maaltijd pakMaaltijd() {
+	public synchronized Maaltijd pakMaaltijd() {
 		Maaltijd res = null;
 		if (erZijnNogMaaltijden()) {
 			res = maaltijden.remove(0);

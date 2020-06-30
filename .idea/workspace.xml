@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e005156c-ac60-4aad-878c-0e3ec825cc29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BalieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/KokTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TestRestaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TestRestaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Restaurant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/Kok.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/Kok.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/Ober.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/Ober.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/model/TestRestaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/model/TestRestaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Balie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Balie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Kok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Kok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Ober.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Ober.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,7 +39,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -81,29 +103,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="669" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1593459297222">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state x="669" y="232" key="#com.intellij.ide.util.MemberChooser/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593459297222" />
     <state x="1584" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593298682158">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
     <state x="1584" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298682158" />
-    <state width="1615" height="266" key="GridCell.Tab.0.bottom" timestamp="1593298723457">
+    <state width="1615" height="266" key="GridCell.Tab.0.bottom" timestamp="1593467711247">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
-    <state width="1615" height="266" key="GridCell.Tab.0.bottom/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723457" />
-    <state width="1615" height="266" key="GridCell.Tab.0.center" timestamp="1593298723456">
+    <state width="1615" height="266" key="GridCell.Tab.0.bottom/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593467711247" />
+    <state width="1615" height="266" key="GridCell.Tab.0.center" timestamp="1593467711246">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
-    <state width="1615" height="266" key="GridCell.Tab.0.center/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723456" />
-    <state width="1615" height="266" key="GridCell.Tab.0.left" timestamp="1593298723455">
+    <state width="1615" height="266" key="GridCell.Tab.0.center/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593467711246" />
+    <state width="1615" height="266" key="GridCell.Tab.0.left" timestamp="1593467711246">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
-    <state width="1615" height="266" key="GridCell.Tab.0.left/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723455" />
-    <state width="1615" height="266" key="GridCell.Tab.0.right" timestamp="1593298723456">
+    <state width="1615" height="266" key="GridCell.Tab.0.left/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593467711246" />
+    <state width="1615" height="266" key="GridCell.Tab.0.right" timestamp="1593467711246">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
-    <state width="1615" height="266" key="GridCell.Tab.0.right/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298723456" />
+    <state width="1615" height="266" key="GridCell.Tab.0.right/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593467711246" />
     <state x="1219" y="97" key="SettingsEditor" timestamp="1593298705264">
       <screen x="0" y="23" width="2560" height="986" />
     </state>
     <state x="1219" y="97" key="SettingsEditor/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593298705264" />
+    <state x="582" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1593459865562">
+      <screen x="0" y="23" width="2560" height="986" />
+    </state>
+    <state x="582" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1344.624.1344.817/0.23.2560.986@0.23.2560.986" timestamp="1593459865562" />
   </component>
 </project>
