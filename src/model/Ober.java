@@ -15,10 +15,19 @@ public class Ober implements Runnable {
 	@Override
 	public void run() {
 		while (!stoppen) {
-			Maaltijd maaltijd = balie.pakMaaltijd();
-			bezorgMaaltijd(maaltijd);
-		}
+				Maaltijd maaltijd = balie.pakMaaltijd();
+				if (maaltijd != null) {
+					bezorgMaaltijd(maaltijd);
+				} else {
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e) {
+					}
+				}
+			}
+
 	}
+
 
 	public void stoppen() {
 		stoppen = true;

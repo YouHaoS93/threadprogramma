@@ -8,6 +8,9 @@ public class Balie {
 	private ArrayList<Bestelling> bestellingen = null;
 	private ArrayList<Maaltijd> maaltijden = null;
 
+	private static final Object bestellingLock = new Object();
+	private static final Object maaltijdLock = new Object();
+
 	public Balie() {
 		this.bestellingen = new ArrayList<Bestelling>();
 		this.maaltijden = new ArrayList<Maaltijd>();
@@ -15,42 +18,44 @@ public class Balie {
 
 	// Nieuwe bestelling plaatsen die kok de bereidt
 	public void plaatsBestelling(Bestelling b) {
-		bestellingen.add(b);
-	}
-
-	// Er zijn nog bestellingen om te bereiden
-	public boolean erZijnNogBestellingen() {
-		return !bestellingen.isEmpty();
+		synchronized (bestellingLock) {
+			bestellingen.add(b);
+		}
 	}
 
 	// Kok pakt bestelling om te bereiden
-	public synchronized Bestelling pakBestelling() {
-		Bestelling res = null;
-		if (erZijnNogBestellingen()) {
-			res = bestellingen.remove(0);
+	public Bestelling pakBestelling() {
+		synchronized (bestellingLock) {
+			Bestelling res = null;
+			if(!bestellingen.isEmpty()) {
+				res = bestellingen.remove(0);
+				return res;
+			} else {
+				return null;
+			}
 		}
-		return res;
 	}
 
 	// Kok plaatst maaltijd voor bezorging
 	public void plaatsMaaltijd(Maaltijd m) {
-		maaltijden.add(m);
-	}
-
-	// Er zijn nog maaltijden die ober kan bezorgen
-	public boolean erZijnNogMaaltijden() {
-		return !maaltijden.isEmpty();
+		synchronized (maaltijdLock) {
+			maaltijden.add(m);
+		}
 	}
 
 	// Ober pakt een maaltijd om te bezorgen
-	public synchronized Maaltijd pakMaaltijd() {
-		Maaltijd res = null;
-		if (erZijnNogMaaltijden()) {
-			res = maaltijden.remove(0);
+	public Maaltijd pakMaaltijd() {
+		synchronized (maaltijdLock) {
+			Maaltijd res = null;
+			if(!maaltijden.isEmpty()) {
+				res = maaltijden.remove(0);
+				return res;
+			} else {
+				return null;
+			}
 		}
-		return res;
 	}
-	
+
 	public void genereerBestellingen() {
 		for (int i = 0; i < Restaurant.AANTALBESTELLINGEN; i++) {
 			int tafelnummer = randInt(1, Restaurant.AANTALTAFELS);
@@ -59,7 +64,7 @@ public class Balie {
 			this.plaatsBestelling(b);
 		}
 	}
-	
+
 	private static int randInt(int min, int max) {
 		Random rand = new Random();
 		int randomNum = rand.nextInt((max - min) + 1) + min;
